@@ -4,7 +4,7 @@ const chiffres_channel_id = "774236898851029002";
 const mess_channel_id = "832389710654472232";
 
 const bot = new Discord.Client();
-bot.login("ODMyMzc2MDc2NDQ5NzQyODk5.YHi4oQ.bai2ylaZzdmxxNi706Cc12aFmXI");
+bot.login("[TOKEN]");
 
 bot.on("message", async (message) => {
     if (message.channel.id != chiffres_channel_id)
